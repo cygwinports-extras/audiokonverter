@@ -1,0 +1,6 @@
+category: Audio KDE
+requires: cygwin kdelibs kdialog apetag lame faac faad2 flac id3lib id3v2 musepack-tools mplayer vorbis-tools wavpack
+sdesc: "KDE audio conversion utility"
+ldesc: "audiokonverter is a small utility to easily convert from OGG, 
+MP3, AAC, M4A, FLAC, WMA, RealAudio, Musepack, Wavpack, WAV and movies 
+to MP3, OGG, M4A, WAV and FLAC in Konqueror by right-clicking on them."

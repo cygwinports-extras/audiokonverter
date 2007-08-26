@@ -1,0 +1,69 @@
+audiokonverter
+------------------------------------------
+audiokonverter is a small utility to easily convert from OGG, MP3, AAC, 
+M4A, FLAC, WMA, RealAudio, Musepack, Wavpack, WAV and movies to MP3, 
+OGG, M4A, WAV and FLAC in Konqueror by right-clicking on them.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  kdelibs-3.5.7-1
+  kdialog
+  apetag
+  lame
+  faac
+  faad2
+  flac
+  id3lib
+  id3v2
+  musepack-tools
+  mplayer
+  vorbis-tools
+  wavpack
+
+Canonical website:
+  http://www.kde-apps.org/content/show.php?content=12608
+
+Canonical download:
+  http://www.kde-apps.org/CONTENT/content-files/12608-audiokonverter-5.5.1.tar.bz2
+
+-------------------------------------------
+
+Build instructions:
+  unpack audiokonverter-5.5.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./audiokonverter-5.5.1-X.cygport all
+
+This will create:
+  /usr/src/audiokonverter-5.5.1-X-src.tar.bz2
+  /usr/src/audiokonverter-5.5.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/anytowav
+  /usr/bin/audioconvert
+  /usr/bin/movie2sound
+  /usr/bin/oggdrop-lx
+  /usr/share/apps/konqueror/servicemenus/audioconvert.desktop
+  /usr/share/apps/konqueror/servicemenus/audiofrommovie.desktop
+  /usr/share/doc/Cygwin/audiokonverter-5.5.1.README
+  /usr/share/doc/audiokonverter-5.5.1/COPYING
+  /usr/share/doc/audiokonverter-5.5.1/ChangeLog
+  /usr/share/doc/audiokonverter-5.5.1/README
+  /usr/share/doc/audiokonverter-5.5.1/TODO
+  /usr/share/mimelnk/audio/x-flv.desktop
+  /usr/share/mimelnk/audio/x-wavpack.desktop
+
+------------------
+
+Port Notes:
+
+----- version 5.5.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

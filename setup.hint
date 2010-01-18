@@ -1,5 +1,5 @@
 category: Audio KDE
-requires: apetag bash kdelibs kdialog lame faac faad2 flac id3lib id3v2 musepack-tools mplayer vorbis-tools wavpack
+requires: apetag bash coreutils faac faad2 flac id3lib id3v2 kdialog lame mplayer musepack-tools shorten vorbis-tools wavpack
 sdesc: "KDE audio conversion utility"
 ldesc: "audiokonverter is a small utility to easily convert from OGG, 
 MP3, AAC, M4A, FLAC, WMA, RealAudio, Musepack, Wavpack, WAV and movies 

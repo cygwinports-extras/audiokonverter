@@ -8,11 +8,11 @@ src_test() { :; }
 
 src_install() {
 	cd ${S}
-	dobin anytowav audioconvert movie2sound oggdrop-lx
+	dobin anytowav4 audioconvert4 movie2sound4
 
-	insinto /usr/share/apps/konqueror/servicemenus/
-	doins audioconvert.desktop audiofrommovie.desktop
+	insinto /usr/share/kde4/services/ServiceMenus
+	doins audioconvert4.desktop audiofrommovie4.desktop
 
 	insinto /usr/share/mimelnk/audio/
-	doins x-wavpack.desktop x-flv.desktop
+	doins amr.desktop x-wavpack.desktop x-flv.desktop
 }
